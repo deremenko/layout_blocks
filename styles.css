@@ -1,0 +1,41 @@
+.battery-container {
+    display: flex;
+    width: 30%;
+    height: 10vw;
+    align-items: center;
+    margin:  3vw 0 ;
+}
+
+.battery-container_black-border {
+    border: 1vw solid black;
+}
+
+.battery-container__general-outline {
+    width: 90%;
+    height: 100%;
+}
+
+.battery-container__head {
+    height: 33%;
+    width: 3%;
+    background-color: black;
+
+}
+
+.battery-container__low-level {
+    width: 33%;
+    height: 100%;
+    background-color: brown;
+}
+
+.battery-container__medium-level {
+    width: 66%;
+    height: 100%;
+    background-color: yellow;
+}
+
+.battery-container__high-level {
+    width: 100%;
+    height: 100%;
+    background-color: green;
+}

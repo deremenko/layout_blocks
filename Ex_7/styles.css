@@ -1,0 +1,20 @@
+.fixed-block {
+  text-align: center;
+  font-size: 1.3em;
+  position: fixed;
+  top: 45%;
+  right: 0;
+  width: 200px;
+  height: 200px;
+  left: -155px;
+  transition: left 0.5s ease-in-out;
+  cursor: pointer;
+  background-color: rgb(255, 202, 4);
+  transform: rotate(90deg);
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.fixed-block:hover {
+  left: 0;
+}

@@ -1,0 +1,28 @@
+.circle-container {
+  border-radius: 50%;
+  width: 100px; 
+  height: 100px;
+  background-color: hsl(90deg 44.68% 81.57%);
+}
+
+.circle-container__progress-line {
+
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: conic-gradient(#96cc8b 75%, #cccccc00 0);
+  rotate: 135deg;
+}
+
+.circle-container__text-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -75%;
+  left: 25%;
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  background-color: hsl(90deg 47.37% 92.55%);
+}

@@ -1,0 +1,27 @@
+.circle-container {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(209, 233, 209); 
+}
+
+.circle-container__progress-line {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: conic-gradient(rgb(150, 204, 139) 75%, rgba(204, 204, 204, 0) 0);
+  rotate: 135deg;
+}
+
+.circle-container__text-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -75%;
+  left: 25%;
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  background-color: rgb(213, 238, 222); 
+}

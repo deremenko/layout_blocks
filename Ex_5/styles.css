@@ -1,0 +1,20 @@
+.link {
+  border: 1px solid rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 2px;
+}
+
+.link__text {
+  transition: background-color 0.2s ease-in-out;
+}
+
+.link:hover {
+  background-image: linear-gradient(to top, rgb(224, 224, 199), rgb(252, 254, 243));
+}
+
+.link__text:hover {
+  color: rgb(255, 0, 0);
+}

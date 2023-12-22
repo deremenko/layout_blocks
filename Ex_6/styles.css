@@ -1,9 +1,9 @@
-.conteiner-for-example {
+body {
   display: flex;
   justify-content: center;
 }
 
-.ring-container {
+.container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,7 +11,7 @@
   height: 300px;
 }
 
-.ring-container__ring {
+.container__ring {
   margin: -1px;
   display: flex;
   justify-content: center;
@@ -19,30 +19,27 @@
   width: 75px;
   height: 75px;
   border-radius: 50%;
+  background-color: rgb(178 209 53)
 }
 
-.ring-container__pipeline {
+.container__pipeline {
   height: 11px;
   width: 100px;
   background-color: rgb(198 198 198);;
 }
 
-.ring-container__ring___green {
-  background-color: rgb(178 209 53)
-}
-
-.ring-container__ring___purple {
+.container__ring_purple {
   background-color: rgb(171 77 156);
 }
 
-.ring-container__ring___gray {
+.container__ring_gray {
   background-color: rgb(198 198 198);
 }
 
-.ring-container__ring___text-color-white {
+.container__text {
   color: rgb(255, 255, 255);
 }
 
-.ring-container__ring___text-color-black {
+.container__text_color-black {
   color: rgb(0, 0, 0);
 }

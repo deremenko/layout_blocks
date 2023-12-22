@@ -11,7 +11,7 @@
   gap: 10px;
 }
 
-.grid__item {
+.grid-item {
   width: 200px;
   height: 300px;
   text-align: center;
@@ -19,11 +19,11 @@
   cursor: pointer;
 }
 
-.grid__item:hover {
+.grid-item:hover {
   box-shadow: 0 0 10px 5px #000000;
 }
 
-.grid__item__header {
+.grid-item__header {
   background-color: #33b5e5;
   padding: 10px;
   font-size: 16px;
@@ -31,11 +31,11 @@
   color: #fff;
 }
 
-.grid__item__image {
+.grid-item__image {
   width: 50%;
 }
 
-.grid__item__temperature {
+.grid-item__temperature {
   font-size: 20px;
   color: #000000;
 }

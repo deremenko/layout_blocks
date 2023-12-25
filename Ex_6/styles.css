@@ -1,0 +1,45 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 720px;
+  height: 300px;
+}
+
+.container__ring {
+  margin: -1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background-color: rgb(178 209 53)
+}
+
+.container__pipeline {
+  height: 11px;
+  width: 100px;
+  background-color: rgb(198 198 198);;
+}
+
+.container__ring_purple {
+  background-color: rgb(171 77 156);
+}
+
+.container__ring_gray {
+  background-color: rgb(198 198 198);
+}
+
+.container__text {
+  color: rgb(255, 255, 255);
+}
+
+.container__text_color-black {
+  color: rgb(0, 0, 0);
+}

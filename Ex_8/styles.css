@@ -1,38 +1,38 @@
 @media (max-width: 1024px) {
-  .conteiner-hosting__name-label {
+  .conteiner-hosting-offer__name-label {
     font-size: 1.0em;
   }
 
-  .conteiner-hosting__offer {
+  .conteiner-hosting-offer {
     width: 30vw;
   }
   
-  .conteiner-hosting__button-link {
+  .conteiner-hosting-offer__button-link {
     width: 65%;
   }
 }
 
 @media (min-width: 1025px) {
-  .conteiner-hosting__button-link {
+  .conteiner-hosting-offer__button-link {
     width: 45%;
   }
 
-  .conteiner-hosting__offer {
+  .conteiner-hosting-offer {
     width: 17.5vw;
   }
 
-  .conteiner-hosting__name-label {
+  .conteiner-hosting-offer__name-label {
     font-size: 1.2em;
   }
 }
 
-.conteiner {
+.conteiner-hosting {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.conteiner-hosting {
+.conteiner-hosting__grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   background-color: white;
@@ -41,7 +41,7 @@
   box-shadow: 0px 0px 10px black;
 }
 
-.conteiner-hosting__offer {
+.conteiner-hosting-offer {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
@@ -49,18 +49,18 @@
   height: 190px;
 }
 
-.conteiner-hosting__img {
+.conteiner-hosting-offer__img {
   object-fit: contain;
   box-sizing: border-box;
 }
 
-.conteiner-hosting__name-label {
+.conteiner-hosting-offer__name-label {
   color: rgb(247 97 51);
   margin: 5px 0 10px 0;
   text-align: center;
 }
 
-.conteiner-hosting__button-link {
+.conteiner-hosting-offer__button-link {
   height: 25px;
   background-color: rgb(247 97 51);
   padding: 1px;

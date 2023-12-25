@@ -1,15 +1,15 @@
 .progress-container {
-    background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(189, 189, 189));
-    height: 20px;
-    width: 100%;
-    border-radius: 20px;
-    border: 1px solid rgb(0, 0, 0);
-    overflow: hidden;
+  background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(189, 189, 189));
+  height: 20px;
+  width: 100%;
+  border-radius: 20px;
+  border: 1px solid rgb(0, 0, 0);
+  overflow: hidden;
 }
 
 .progress-container__linear {
-    background: linear-gradient(to bottom, rgb(72, 186, 252), rgb(0 147 243));
-    box-shadow: 5px 0 10px rgba(0, 0, 0, 0.8);
-    width: 35%;
-    height: 100%;
+  background: linear-gradient(to bottom, rgb(72, 186, 252), rgb(0 147 243));
+  box-shadow: 5px 0 10px rgba(0, 0, 0, 0.8);
+  width: 35%;
+  height: 100%;
 }

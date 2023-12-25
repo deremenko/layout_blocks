@@ -1,0 +1,41 @@
+.fixed-block {
+  text-align: center;
+  font-size: 1.3em;
+  position: fixed;
+  top: 45%;
+  width: 200px;
+  height: 480px;
+  left: -290px;
+  transition: left 0.5s ease-in-out;
+  cursor: pointer;
+  background-color: rgb(255, 202, 4);
+  transform: rotate(90deg);
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.fixed-block__info-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(0, 0, 0);
+  height: 86%;
+  width: 100%;
+}
+
+.fixed-block__img {
+  transform: rotate(-90deg);
+  object-fit: cover;
+}
+
+.fixed-block__text {
+  transform: rotate(-90deg);
+  color: rgb(255, 255, 255);
+  margin: 15px 0 0 0;
+}
+
+.fixed-block:hover {
+  left: 125px;
+}

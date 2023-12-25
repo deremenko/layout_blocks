@@ -1,0 +1,41 @@
+.container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.grid-item {
+  width: 200px;
+  height: 300px;
+  text-align: center;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.grid-item:hover {
+  box-shadow: 0 0 10px 5px #000000;
+}
+
+.grid-item__header {
+  background-color: #33b5e5;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.grid-item__image {
+  width: 50%;
+}
+
+.grid-item__temperature {
+  font-size: 20px;
+  color: #000000;
+}
